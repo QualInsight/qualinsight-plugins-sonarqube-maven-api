@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.qualinsight.plugins.sonarqube</groupId>
+    <artifactId>qualinsight-plugins-sonarqube-maven</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>qualinsight-plugins-sonarqube-maven-api</artifactId>
+  <description>API classes of the QualInsight Maven plugin for SonarQube.</description>
+  <organization>
+    <url>http://www.qualinsight.com/</url>
+    <name>QualInsight</name>
+  </organization>
+  <inceptionYear>2015</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>org.sonarsource.sonarqube</groupId>
+      <artifactId>sonar-plugin-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
